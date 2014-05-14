@@ -1,7 +1,9 @@
 Einstein.js
 ===========
 
-A JavaScript browser-based artificial neural network
+A JavaScript browser-based artificial neural network made for client-side execution.
+
+Einstein.js is 20% faster than [brain](https://github.com/harthur/brain) and without any dependency.
 
 ```javascript
 var einstein = new Einstein(training_progress_callback:yourCallback);
