@@ -1,5 +1,5 @@
 /*
- Project:   Einstein.js - v0.0.1
+ Project:   Einstein.js - v0.0.2
  Subject:   A JavaScript browser-based artificial neural network
  Copyright: 2014 - Nikki Moreaux - http://diplodoc.us
  License:   MIT
@@ -412,10 +412,11 @@ Einstein.prototype = {
 					mean_squared_error: this._meanSquaredError(),
 					training_iterations: this._neural_network_training_iterations
 				};
-				this._training_progress_callback.apply(window,[
-					training_infos
-				]);
-				
+				if(training_infos.mean_squared_error < 1){
+					this._training_progress_callback.apply(window,[
+						training_infos
+					]);
+				}
 			}
 		}
 		if(this._neural_network_training_status === "TRAINED"){
