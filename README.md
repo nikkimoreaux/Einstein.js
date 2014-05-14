@@ -14,7 +14,7 @@ einstein.learn([1,1],0);
 
 einstein.guess([X,X], function(outputs){...});
 
-// training_progress_callback is called until targeted_mse if reached
+// training_progress_callback is called until targeted_mse is reached
 Status: TRAINING mean_squared_error: 0.04529366824648675
 Status: TRAINED mean_squared_error: 0.004889117464346838
 
