@@ -5,6 +5,15 @@ A JavaScript browser-based artificial neural network made for client-side execut
 
 Einstein.js is 20% faster than [brain](https://github.com/harthur/brain) and works without any dependency.
 
+Live demo
+---------
+
+Check the demo at http://project-einsteinjs-demo.diplodoc.us/
+
+Usage
+-----
+
+
 ```javascript
 var einstein = new Einstein({training_progress_callback:yourCallback, targeted_mse:0.005});
 
