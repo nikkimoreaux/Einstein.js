@@ -8,7 +8,7 @@ Einstein.js is 20% faster than [brain](https://github.com/harthur/brain) and wor
 Live demo
 ---------
 
-Check the demo at http://project-einsteinjs-demo.diplodoc.us/
+Check the demo at http://project-einsteinjs-demo.nmoreaux.com/
 
 Usage
 -----
