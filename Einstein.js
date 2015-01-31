@@ -1,7 +1,7 @@
 /*
  Project:   Einstein.js - v0.0.2
  Subject:   A JavaScript browser-based artificial neural network
- Copyright: 2014 - Nikki Moreaux - http://diplodoc.us
+ Copyright: 2014 - Nikki Moreaux - http://nmoreaux.com
  License:   MIT
 */
 
